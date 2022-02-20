@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const FooterStyles = styled.footer`
+  position: absolute;
+  bottom: 0;
   width: 100%;
   height: 60px;
   background: var(--focus);
@@ -27,7 +29,7 @@ export default function Footer() {
   return (
     <FooterStyles className="footer">
       <p className="footer__text">
-        created by{" "}
+        created by
         <span className="footer__text--strong"> carlos.pabon.code </span> -
         devChallenges.io
       </p>
